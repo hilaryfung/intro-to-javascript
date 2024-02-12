@@ -1,6 +1,6 @@
-const header = document.querySelector("#mushroom-name")
-const image = document.querySelector("#mushroom-image")
-const credit = document.querySelector("#photo-credit")
+const header = document.querySelector("#header")
+const image = document.querySelector("#image")
+const credit = document.querySelector("#credit")
 
 document.querySelector("#chanterelle-button").addEventListener("click", function() {
     header.innerHTML = "Chanterelle"
